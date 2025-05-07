@@ -35,7 +35,7 @@ const Portfolio = () => {
                     </div>
                 ) : (
                     <div
-                        className="grid items-center content-center md:grid-cols-3 xls:grid-cols-1 md:px-24 lg:px-48 p-4">
+                        className="grid items-center content-center md:grid-cols-3 xls:grid-cols-1 md:px-24 lg:px-16 p-4">
                         {portfolioList.map((item, index) => (
                             <div>
                                 <div key={index} className="group relative m-3 xls:hidden md:block rounded-lg">

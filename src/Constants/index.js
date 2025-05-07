@@ -18,7 +18,7 @@ import {
     intellije,
     eclipse,
     dsa, aws, devcpp, linux, windows,
-    oraclefa, cicd, devops, gate, suvidha
+    oraclefa, cicd, devops, gate, suvidha, erp, surya, comp, tag, nptel
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiGithub} from 'react-icons/fi';
@@ -44,7 +44,7 @@ export const AppText = {
     WorkedFor: '& Achievements',
     Contact: 'Contact ',
     Us: 'Me',
-    copywriteText: 'Copyright by Samriddhi Datir @2025'
+    copywriteText: 'Copyright by Samriddhi Datir @'
 }
 
 export const aboutSection = [
@@ -63,7 +63,7 @@ export const aboutSection = [
     {
         id: 3,
         image: dsa,
-        title: 'Competitive Porgrammer',
+        title: 'Competitive Programmer',
         desc: 'DSA programming enthusiast, in C++ language'
     },
 
@@ -111,42 +111,28 @@ export const skillsList = [
 export const portfolio = [
     {
         id: 1,
+        title: 'MITAOE ERP',
+        type: 'website',
+        desc: "More corrected version of MITAOE's ERP.",
+        imageUrl: erp,
+        link: "https://github.com/mrinal4703/MITAOE-ERP"
+    },
+    {
+        id: 2,
         title: 'Suvidhaa',
         type: 'website',
         desc: "A health care management portal for seamless medical related procedures with AI help.",
         imageUrl: suvidha,
         link: "https://github.com/mrinal4703/Suvidhaa"
     },
-]
-
-export const Education = [
     {
-        id: 1,
-        date: '2021-25',
-        imageUrl: mit,
-        text: 'Currently pursuing my Btech degree from an autonomous and affiliated college i.e. MIT academy of Engineering which is under SPPU (Savitribai Phule Pune University). I would be completing my Btech by 2025.',
-        educationName: 'BTech CSE',
-        schoolName: 'MIT Academy of Engineering',
-        performance: 'B.tech CGPA 8.40',
+        id: 3,
+        title: 'Surya',
+        type: 'website',
+        desc: "A visually assistive app that perfects your Surya Namaskar poses using angles and other metrics.",
+        imageUrl: surya,
+        link: "https://github.com/mrinal4703/Surya"
     },
-    {
-        id: 2,
-        date: '2021',
-        imageUrl: dav,
-        text: 'I completed my HSC from Bharat English school & Jr. college, where I chose PCMB (Physics, Chemistry, Math and Biology) with IT (Information Technology).',
-        educationName: 'XII',
-        schoolName: 'Bharat English school & junior college, Pune',
-        performance: 'Scored 76.67%',
-    },
-    {
-        id: 1,
-        date: '2019',
-        imageUrl: nhps,
-        text: 'I completed my SSC from Priyadarshani English Medium School & jr. college. I was in this school from first grade till tenth grade. Since I was a student from really long time, I participated in various activities that my school organized such as sports, camping, social wellness and awareness rallies, etc. I won various medals and certificates in sports. ',
-        educationName: 'X',
-        schoolName: 'Priyadarshani English Medium School & jr. college, Pune',
-        performance: 'Scored 74.60 %',
-    }
 ]
 
 export const ide = [
@@ -192,32 +178,82 @@ export const ide = [
     }
 ]
 
+export const Education = [
+    {
+        id: 1,
+        // pic: jbp,
+        date: '2021-25',
+        imageUrl: mit,
+        icon: comp,
+        text: [
+            "Pursuing Bachelor of Technology from this autonomous and affiliated college",
+            "Under SPPU (Savitribai Phule Pune University)",
+            "To be completing Engineering by May, 2025"
+        ],
+        educationName: 'BTech CSE',
+        schoolName: 'MIT Academy of Engineering',
+        performance: 'CGPA 8.40',
+    },
+    {
+        id: 2,
+        pic: qr,
+        date: '2021',
+        imageUrl: dav,
+        icon: tag,
+        text: [
+            "Completed the HSC from Bharat English School & J. College",
+            "Stream chosen was PCMB with IT",
+        ],
+        educationName: 'XII State Board',
+        schoolName: 'Bharat English School & J. College, Pune',
+        performance: 'Scored 76.67%',
+    },
+    {
+        id: 3,
+        pic: core,
+        date: '2019',
+        imageUrl: nhps,
+        icon: tag,
+        text: [
+            "Completed the SSC from Priyadarshini English Medium School & Jr. College",
+            "Been from first grade till tenth grade",
+            "Participated in various activities that my school organized such as sports, camping, social wellness " +
+            "and awareness rallies, etc; and won various medals and certificates in sports."
+        ],
+        educationName: 'X State Board',
+        schoolName: 'Priyadarshini English Medium School & Jr. College, Pune',
+        performance: 'Scored 74.60%',
+    }
+]
+
 export const Internship = [
     {
         id: 1,
         // imageUrl: oraclefa,
         companydesc: 'Internship in CLoud Computing',
         company: 'Uniconverge Technologies Pvt. Ltd.',
-        duration: 'May 2024 - June 2024'
+        duration: 'May 2024 - June 2024',
+        link: 'https://drive.google.com/file/d/13yQCwj9TpEigopMLBdZ6bLQ6M3PYtNY4/view'
+    },
+    {
+        id: 1,
+        // imageUrl: oraclefa,
+        companydesc: 'Machine Learning Training',
+        company: 'Internshala Trainings',
+        duration: '8th May 2023',
+        link: 'https://drive.google.com/file/d/1UDOd7hMAA2AkAQqIMJiJ1zes9rnogWlW/view'
     },
 ]
 
 export const CompanyImage = [
     {
         id: 5,
-        imageUrl: gate,
-        companydesc: 'GATE 2024',
-        company: 'Gate',
-        duration: 'February 10, 2024',
-        description: 'Qualified GATE 2024'
-    },
-    {
-        id: 2,
-        imageUrl: 'https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png',
-        companydesc: 'Microsoft Certified: Azure Fundamentals',
-        company: 'Microsoft',
-        duration: 'December 30, 2023',
-        description: 'Global certification AZ-900'
+        imageUrl: nptel,
+        companydesc: 'Introduction to Industry 4.0 and Industrial Internet of Things',
+        company: 'NPTEL',
+        duration: 'October 26, 2024',
+        description: 'Top 5%, and Silver Medal',
+        link: 'https://drive.google.com/file/d/12OGQspUV--x358DaHU82DQruH-OulYA3/view'
     },
 ]
 

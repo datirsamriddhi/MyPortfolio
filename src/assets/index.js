@@ -105,6 +105,8 @@ import qr from './qr.jpg'
 import rbc from './rbc.jpg'
 import ubuntu from './ubuntu.png'
 // import jupyter from './jupyter.png'
+import erp from './erp.png'
+import surya from './surya.jpg'
 
 import vs from './vs.png'
 import windows from './windows.png'
@@ -121,10 +123,13 @@ import suvidha from './suvidhaa.jpg'
 import seemsan from './seemsan.jpg'
 import opencv from './opencv.png'
 import redhat from './redhat.png'
+import comp from './comp.png'
+import tag from './tag.png'
+import nptel from './nptel.png'
 
 export {
     calc, compjs, fileshare, qr, rbc, pyoop, pystud, supervised, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    me,aflacLogo,wiuLogo, linux,
+    me,aflacLogo,wiuLogo, linux, tag, comp, nptel,
     book,tele,core,foundation,fundamentals,elastic,prep,
     puthon,CyberOpsAssoc,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
@@ -134,7 +139,7 @@ export {
     gitlab,teachnook,aws,
     oracle,bootstrap,cpp,restapi,spring,
     firebase,contactme,codsoft,opencv,redhat,
-    mysql,up,flashmob,calcapp,devcpp,
+    mysql,up,flashmob,calcapp,devcpp, erp, surya,
     react,portfolios,tailwind,waveportfolio,wavecompanies,
     wave,wavehome,wavehome2,wavecontact,waveabout1,waveport2,waveport1,wavecontact1,wavehm1,wavehme1,wavehme2,
     robo, dsa, dsa0, dsa1, dsa2, pycharm, ubuntu,cicd,devops,gate,edunet,seemsan,suvidha

@@ -20,7 +20,7 @@ function ContactUs() {
                     <div className='w-full'>
                         <form>
                             <div className='flex my-4 flex-col'>
-                                <label className='text-gray-400 mb-1'>Email</label>
+                                <label className='text-gray-700 mb-1'>Email</label>
                                 <input
                                     type="email"
                                     placeholder='yourname@gmail.com'
@@ -30,7 +30,7 @@ function ContactUs() {
                                     required
                                 />
                             </div>
-                            <label className='text-gray-400 my-2 text-start justify-start items-start'>Message</label>
+                            <label className='text-gray-700 my-2 text-start justify-start items-start'>Message</label>
                             <textarea
                                 type="text"
                                 rows={7}

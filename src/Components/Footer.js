@@ -24,19 +24,20 @@ import React from 'react';
 import { AppText, socialNetwork } from '../Constants';
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
   return (
     <div className="bottom-0 w-full">
       <div className='h-max py-4 pt-3 items-center flex flex-col px-10 md:px-2'>
         <div className='flex gap-4'>
           {socialNetwork.map((item, index) => (
             <a href={item.url} target='_blank' rel='noreferrer' className="no-underline">
-              <div key={index} className='w-[40px] text-[30px] text-gray-800'>
+              <div key={index} className='w-[40px] text-[30px] text-gray-950'>
               {item.logo}
-              
+
             </div></a>
           ))}
         </div>
-        <h1 className='text-black text-[15px] mt-4'>{AppText.copywriteText}</h1>
+        <h1 className='text-black text-[15px] mt-4'>{AppText.copywriteText}{currentYear}</h1>
       </div>
     </div>
   );

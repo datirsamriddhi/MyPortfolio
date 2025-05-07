@@ -138,7 +138,17 @@ const Home = () => {
                                     >
                                         <h3 className="vertical-timeline-element-title font-semibold">{education.educationName}</h3>
                                         <cite className="vertical-timeline-element-subtitle">{education.schoolName}</cite>
-                                        <p>{education.text}</p>
+                                        <p>
+                                            <div
+                                                className="text-[10px] text-left my-2 md:group-hover:text-gray-200 text-gray-500">
+                                                {education.text.map((point, index) => (
+                                                    <div key={index} className="flex items-center gap-2">
+                                                        <img src={education.icon} className="h-6 mt-2 font-black" alt="icon"/>
+                                                        <p className="block mb-1 whitespace-pre-line">{point}</p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </p>
                                         <p>{education.performance}</p>
                                     </VerticalTimelineElement>
                                 ))}
@@ -148,15 +158,18 @@ const Home = () => {
                             <div
                                 className='md:px-24 xls:px-5'>
                                 {aboutSection.map((item, index) => (
+                                    // <div key={index} className='flex md:relative md:h-full md:w-full items-center justify-center flex-col m-2 group md:hover:bg-violet-900 md:hover:border-1 rounded-lg py-2'>
                                     <div key={index} className='flex md:relative md:h-full md:w-full items-center justify-center flex-col m-2 rounded-lg py-2'>
                                         <img src={item.image} className='w-[280px] rounded-lg h-[207px] object-cover'
                                              alt=''/>
+                                        {/*<h1 className='font-bold text-sm md:mt-1 md:group-hover:text-white'>{item.title}</h1>*/}
                                         <h1 className='font-bold text-sm md:mt-1'>{item.title}</h1>
+                                        {/*<h1 className='text-xs text-center md:group-hover:text-gray-200 text-gray-500 px-7'>*/}
                                         <h1 className='text-xs text-center text-gray-500 px-7'>
-                                                {item.desc}
+                                            {item.desc}
                                         </h1>
                                     </div>
-                                    ))}
+                                ))}
                             </div>
                         </div>
                     </div>
