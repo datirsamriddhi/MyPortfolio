@@ -1,0 +1,245 @@
+import {
+    jupyter,
+    jbp,
+    qr,
+    ubuntu,
+    opencv,
+    redhat,
+    mysql,
+    mit,
+    nhps,
+    dav,
+    core,
+    cpp,
+    bootstrap,
+    oracle,
+    vs,
+    netbeans,
+    intellije,
+    eclipse,
+    dsa, aws, devcpp, linux, windows,
+    oraclefa, cicd, devops, gate, suvidha
+} from "../assets"
+
+import {FiLinkedin, FiInstagram, FiGithub} from 'react-icons/fi';
+import { BsTwitterX } from "react-icons/bs";
+
+export const AppText = {
+    hello: 'Hello,',
+    Iam: 'I\'m',
+    SamriddhiDatir: 'Samriddhi Datir',
+    homeDescription:'Cloud & DevOps enthusiast, programmer in C and C++, moderate knowledge in Red Hat Linux and Ubuntu, core knowledge of computer science subjects. Creative thinker, interest in SQL queries, HTML, CSS. Eagers to finish the tasks as soon as possible and a fast learner.',
+    aboutMeDescripion: 'Enthusiastic Computer Engineering student with a stellar 9.46 CGPA, specializing in full-stack development. Expert in Front-end and Back-end Development, proficient in React.js, Node.js, MySQL, and Java, with a knack for innovative problem-solving in C++. Noteworthy projects include automating PUC certificate processing and creating a campus access system. Skilled in Python, project management, and disaster management tools like Rakshak for crisis response. ',
+    aboutMeDescripion1: 'Eager to embrace challenges, I thrive on learning and seek to contribute impactful solutions to tech. Open to collaborations and networking opportunities to further explore the ever-evolving realms of technology. Let\'s connect and delve into the dynamic world of innovation and growth! ',
+    Skills: 'Skills & ',
+    Experties: 'Internships',
+    TechSkills: 'Technical Skills: ',
+    OtherSkills: 'Other Skills: ',
+    CloudEnthusiast: 'Cloud Enthusiast',
+    CompetitiveProgrammer: 'Competitive Programmer',
+    DevOps: 'DevOps Enthusiast',
+    Portfolio: 'Works',
+    Creative: 'My Project ',
+    CompaniesI: 'Internships, Badges ',
+    WorkedFor: '& Achievements',
+    Contact: 'Contact ',
+    Us: 'Me',
+    copywriteText: 'Copyright by Samriddhi Datir @2025'
+}
+
+export const aboutSection = [
+    {
+        id: 1,
+        image: cicd,
+        title: 'Cloud Enthusiast',
+        desc: 'Expert in implementation of cloud services'
+    },
+    {
+        id: 2,
+        image: devops,
+        title: 'DevOps Enthusiast',
+        desc: 'Development and Deployment experienced through cloud'
+    },
+    {
+        id: 3,
+        image: dsa,
+        title: 'Competitive Porgrammer',
+        desc: 'DSA programming enthusiast, in C++ language'
+    },
+
+]
+
+export const skillsList = [
+    {
+        id: 1,
+        icon: opencv,
+        text: 'OpenCV'
+    },
+    {
+        id: 1,
+        icon: redhat,
+        text: 'Red Hat Linux'
+    },
+    {
+        id: 1,
+        icon: oracle,
+        text: 'Oracle SQL'
+    },
+    {
+        id: 1,
+        icon: cpp,
+        text: 'C++ and C'
+    },
+    {
+        id: 1,
+        icon: mysql,
+        text: 'MySQL'
+    },
+    {
+        id: 1,
+        icon: aws,
+        text: 'AWS Cloud'
+    },
+    {
+        id: 1,
+        icon: bootstrap,
+        text: 'Bootstrap CSS'
+    },
+
+]
+
+export const portfolio = [
+    {
+        id: 1,
+        title: 'Suvidhaa',
+        type: 'website',
+        desc: "A health care management portal for seamless medical related procedures with AI help.",
+        imageUrl: suvidha,
+        link: "https://github.com/mrinal4703/Suvidhaa"
+    },
+]
+
+export const Education = [
+    {
+        id: 1,
+        date: '2021-25',
+        imageUrl: mit,
+        text: 'Currently pursuing my Btech degree from an autonomous and affiliated college i.e. MIT academy of Engineering which is under SPPU (Savitribai Phule Pune University). I would be completing my Btech by 2025.',
+        educationName: 'BTech CSE',
+        schoolName: 'MIT Academy of Engineering',
+        performance: 'B.tech CGPA 8.40',
+    },
+    {
+        id: 2,
+        date: '2021',
+        imageUrl: dav,
+        text: 'I completed my HSC from Bharat English school & Jr. college, where I chose PCMB (Physics, Chemistry, Math and Biology) with IT (Information Technology).',
+        educationName: 'XII',
+        schoolName: 'Bharat English school & junior college, Pune',
+        performance: 'Scored 76.67%',
+    },
+    {
+        id: 1,
+        date: '2019',
+        imageUrl: nhps,
+        text: 'I completed my SSC from Priyadarshani English Medium School & jr. college. I was in this school from first grade till tenth grade. Since I was a student from really long time, I participated in various activities that my school organized such as sports, camping, social wellness and awareness rallies, etc. I won various medals and certificates in sports. ',
+        educationName: 'X',
+        schoolName: 'Priyadarshani English Medium School & jr. college, Pune',
+        performance: 'Scored 74.60 %',
+    }
+]
+
+export const ide = [
+    {
+        id: 1,
+        icon: vs,
+        text: 'VS Code'
+    },
+    {
+        id: 1,
+        icon: netbeans,
+        text: 'Apache Netbeans'
+    },
+    {
+        id: 1,
+        icon: intellije,
+        text: 'Intellije'
+    },
+    {
+        id: 1,
+        icon: eclipse,
+        text: 'Eclipse'
+    },
+    {
+        id: 1,
+        icon: devcpp,
+        text: 'Dev C++'
+    },
+    {
+        id: 1,
+        icon: windows,
+        text: 'Windows'
+    },
+    {
+        id: 1,
+        icon: linux,
+        text: 'Unix OS'
+    },
+    {
+        id: 1,
+        icon: ubuntu,
+        text: 'Ubuntu OS'
+    }
+]
+
+export const Internship = [
+    {
+        id: 1,
+        // imageUrl: oraclefa,
+        companydesc: 'Internship in CLoud Computing',
+        company: 'Uniconverge Technologies Pvt. Ltd.',
+        duration: 'May 2024 - June 2024'
+    },
+]
+
+export const CompanyImage = [
+    {
+        id: 5,
+        imageUrl: gate,
+        companydesc: 'GATE 2024',
+        company: 'Gate',
+        duration: 'February 10, 2024',
+        description: 'Qualified GATE 2024'
+    },
+    {
+        id: 2,
+        imageUrl: 'https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png',
+        companydesc: 'Microsoft Certified: Azure Fundamentals',
+        company: 'Microsoft',
+        duration: 'December 30, 2023',
+        description: 'Global certification AZ-900'
+    },
+]
+
+export const socialNetwork = [
+    {
+        id: 1,
+        logo: <FiLinkedin className="text-slate-400"/>,
+        url: 'https://www.linkedin.com/in/datirsamriddhi/'
+    },
+    {
+        id: 2,
+        logo: <FiInstagram className="text-slate-400"/>,
+        url: 'https://www.instagram.com/datirsamriddhi'
+    },
+    {
+        id: 3,
+        logo: <BsTwitterX className="text-slate-400"/>,
+        url: 'https://x.com/datirsamriddhi'
+    },
+    {
+        id: 4,
+        logo: <FiGithub className="text-slate-400"/>,
+        url: 'https://github.com/datirsamriddhi'
+    }
+]
