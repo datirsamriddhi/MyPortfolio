@@ -107,7 +107,7 @@ import ubuntu from './ubuntu.png'
 // import jupyter from './jupyter.png'
 import erp from './erp.png'
 import surya from './surya.jpg'
-
+import resume from './SamriddhiBTechFinalResume.pdf'
 import vs from './vs.png'
 import windows from './windows.png'
 import linux from './linux.png'
@@ -126,17 +126,22 @@ import redhat from './redhat.png'
 import comp from './comp.png'
 import tag from './tag.png'
 import nptel from './nptel.png'
+import ieee from './ieee.png'
+import imagepara from './imagepara.png'
+import exam from './exam.png'
+import hobbyy from './hobby.png'
+
 
 export {
     calc, compjs, fileshare, qr, rbc, pyoop, pystud, supervised, mylogo1, cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    me,aflacLogo,wiuLogo, linux, tag, comp, nptel,
+    me,aflacLogo,wiuLogo, linux, tag, comp, nptel, ieee,
     book,tele,core,foundation,fundamentals,elastic,prep,
-    puthon,CyberOpsAssoc,
+    puthon,CyberOpsAssoc, exam, imagepara, hobbyy,
     skill,skillpot,skillpot1,vs,netbeans,intellije,eclipse,androidstud,
     angular,backendev,frontenddev,appdev,
     typescript,mit,nhps,dav,windows, backimage, backimage1,
     android,projekta,puc,foodex,rakshak,
-    gitlab,teachnook,aws,
+    gitlab,teachnook,aws, resume,
     oracle,bootstrap,cpp,restapi,spring,
     firebase,contactme,codsoft,opencv,redhat,
     mysql,up,flashmob,calcapp,devcpp, erp, surya,

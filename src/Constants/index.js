@@ -18,11 +18,15 @@ import {
     intellije,
     eclipse,
     dsa, aws, devcpp, linux, windows,
-    oraclefa, cicd, devops, gate, suvidha, erp, surya, comp, tag, nptel
+    oraclefa, cicd, devops, gate, suvidha, erp, surya, comp, tag, nptel, ieee, imagepara, exam
 } from "../assets"
 
 import {FiLinkedin, FiInstagram, FiGithub} from 'react-icons/fi';
 import { BsTwitterX } from "react-icons/bs";
+import {CgSketch} from "react-icons/cg";
+import {HiOutlinePaintBrush} from "react-icons/hi2";
+import {GiTennisRacket} from "react-icons/gi";
+import {PiCake, PiCookingPot, PiFlowerTulip, PiStudent} from "react-icons/pi";
 
 export const AppText = {
     hello: 'Hello,',
@@ -44,7 +48,9 @@ export const AppText = {
     WorkedFor: '& Achievements',
     Contact: 'Contact ',
     Us: 'Me',
-    copywriteText: 'Copyright by Samriddhi Datir @'
+    copywriteText: 'Copyright by Samriddhi Datir @',
+    Hobby1: 'Hob',
+    Hobby2: 'bies'
 }
 
 export const aboutSection = [
@@ -118,6 +124,22 @@ export const portfolio = [
         link: "https://github.com/mrinal4703/MITAOE-ERP"
     },
     {
+        id: 1,
+        title: 'Image Paragraph Captioning',
+        type: 'website',
+        desc: "Image paragraph captioning generates descriptive text for images using computer vision and NLP.",
+        imageUrl: imagepara,
+        link: ""
+    },
+    {
+        id: 3,
+        title: 'Surya',
+        type: 'website',
+        desc: "A visually assistive app that perfects your Surya Namaskar poses using angles and other metrics.",
+        imageUrl: surya,
+        link: "https://github.com/mrinal4703/Surya"
+    },
+    {
         id: 2,
         title: 'Suvidhaa',
         type: 'website',
@@ -127,11 +149,11 @@ export const portfolio = [
     },
     {
         id: 3,
-        title: 'Surya',
+        title: 'EXAM MANAGEMENT SYSTEM',
         type: 'website',
-        desc: "A visually assistive app that perfects your Surya Namaskar poses using angles and other metrics.",
-        imageUrl: surya,
-        link: "https://github.com/mrinal4703/Surya"
+        desc: "An exam management system automates scheduling, grading, and report generation to improve efficiency.",
+        imageUrl: exam,
+        link: ""
     },
 ]
 
@@ -184,7 +206,8 @@ export const Education = [
         // pic: jbp,
         date: '2021-25',
         imageUrl: mit,
-        icon: comp,
+        // icon: comp,
+        icon: <PiStudent />,
         text: [
             "Pursuing Bachelor of Technology from this autonomous and affiliated college",
             "Under SPPU (Savitribai Phule Pune University)",
@@ -199,21 +222,23 @@ export const Education = [
         pic: qr,
         date: '2021',
         imageUrl: dav,
-        icon: tag,
+        // icon: tag,
+        icon: <PiStudent />,
         text: [
             "Completed the HSC from Bharat English School & J. College",
             "Stream chosen was PCMB with IT",
         ],
         educationName: 'XII State Board',
         schoolName: 'Bharat English School & J. College, Pune',
-        performance: 'Scored 76.67%',
+        performance: 'Scored 75.67%',
     },
     {
         id: 3,
         pic: core,
         date: '2019',
         imageUrl: nhps,
-        icon: tag,
+        // icon: tag,
+        icon: <PiStudent />,
         text: [
             "Completed the SSC from Priyadarshini English Medium School & Jr. College",
             "Been from first grade till tenth grade",
@@ -243,16 +268,33 @@ export const Internship = [
         duration: '8th May 2023',
         link: 'https://drive.google.com/file/d/1UDOd7hMAA2AkAQqIMJiJ1zes9rnogWlW/view'
     },
+    {
+        id: 1,
+        // imageUrl: oraclefa,
+        companydesc: 'Paper Publication Presentation',
+        company: 'Image paragraph Captioning',
+        duration: '8th February 2025',
+        link: 'https://drive.google.com/file/d/1762M9NWPY4uMMwPKJybao9OBkkdq2EWz/view`'
+    },
 ]
 
 export const CompanyImage = [
+    {
+        id: 5,
+        imageUrl: ieee,
+        companydesc: 'Integrating Region Proposals with Recurrent Neural Networks for Image Paragraph Captioning',
+        company: 'IEEE',
+        duration: 'April 22, 2025',
+        description: 'Integrating Region Proposals with Recurrent Neural Networks for Image Paragraph Captioning, Paper Published in IEEE',
+        link: 'https://ieeexplore.ieee.org/document/10969358'
+    },
     {
         id: 5,
         imageUrl: nptel,
         companydesc: 'Introduction to Industry 4.0 and Industrial Internet of Things',
         company: 'NPTEL',
         duration: 'October 26, 2024',
-        description: 'Top 5%, and Silver Medal',
+        description: 'Introduction to Industry 4.0 and Industrial Internet of Things, Silver Medalist',
         link: 'https://drive.google.com/file/d/12OGQspUV--x358DaHU82DQruH-OulYA3/view'
     },
 ]
@@ -260,22 +302,55 @@ export const CompanyImage = [
 export const socialNetwork = [
     {
         id: 1,
-        logo: <FiLinkedin className="text-slate-400"/>,
+        logo: <FiLinkedin className="text-slate-700"/>,
         url: 'https://www.linkedin.com/in/datirsamriddhi/'
     },
     {
         id: 2,
-        logo: <FiInstagram className="text-slate-400"/>,
+        logo: <FiInstagram className="text-slate-700"/>,
         url: 'https://www.instagram.com/datirsamriddhi'
     },
     {
         id: 3,
-        logo: <BsTwitterX className="text-slate-400"/>,
+        logo: <BsTwitterX className="text-slate-700"/>,
         url: 'https://x.com/datirsamriddhi'
     },
     {
         id: 4,
-        logo: <FiGithub className="text-slate-400"/>,
+        logo: <FiGithub className="text-slate-700"/>,
         url: 'https://github.com/datirsamriddhi'
     }
+]
+
+export const hobby = [
+    {
+        id: 1,
+        logo: <CgSketch />,
+        text: 'Sketching'
+    },
+    {
+        id: 1,
+        logo: <HiOutlinePaintBrush />,
+        text: 'Painting'
+    },
+    {
+        id: 1,
+        logo: <GiTennisRacket />,
+        text: 'Badminton'
+    },
+    {
+        id: 1,
+        logo: <PiFlowerTulip />,
+        text: 'Floral arrangements'
+    },
+    {
+        id: 1,
+        logo: <PiCookingPot />,
+        text: 'Cooking'
+    },
+    {
+        id: 1,
+        logo: <PiCake />,
+        text: 'Baking'
+    },
 ]

@@ -45,13 +45,13 @@ const Home = () => {
                                          alt=''/>
                                 </div>
 
-                                <div className={'md:mr-80 md:w-[87%] xls:w-screen'}>
+                                <div className={'md:mr-80 md:w-[95%] xls:w-screen'}>
                                     <h1 className='lg:my-5 md:my-2 text-base lg:text-base md:text-sm sm:text-sm md:w-full xls:w-screen text-black xls:text-[14px] xls:font-medium lg:mt-2 xls:mt-0 md:ml-0 xls:ml-[-12px] md:p-0 xls:px-3'>
                                         {AppText.homeDescription}
                                     </h1>
                                     <div className='w-full md:flex md:flex-row xls:flex-col justify-between'>
                                         <div className='lg:ml-0 lg:py-0'>
-                                            <h3 className='font-thin text-base lg:text-base md:text-sm text-black lg:mx-2 xls:mx-0 lg:my-0 xls:my-2 lg:block md:block sm:block xls:hidden lg:mb-4 md:mb-4'>Let's
+                                            <h3 className='font-semibold text-base lg:text-base md:text-sm text-black lg:mx-2 xls:mx-0 lg:my-0 xls:my-2 lg:block md:block sm:block xls:hidden lg:mb-4 md:mb-4'>Let's
                                                 Connect</h3>
                                             <div className='grid grid-cols-4 md:w-full xls:w-1/2 xls:my-2'>
                                                 <a href="https://www.linkedin.com/in/datirsamriddhi/" target='_blank'
@@ -85,7 +85,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                         <div className='lg:ml-0 lg:py-0'>
-                                            <h3 className='font-thin text-base lg:text-base md:text-sm text-black lg:ml-2 lg:mb-4 lg:block md:block sm:block xls:hidden'>My
+                                            <h3 className='font-semibold text-base lg:text-base md:text-sm text-black lg:ml-2 lg:mb-4 lg:block md:block sm:block xls:hidden'>My
                                                 works in</h3>
                                             <div className='grid grid-cols-4'>
                                                 <a href="https://github.com/datirsamriddhi" target='_blank'
@@ -143,7 +143,8 @@ const Home = () => {
                                                 className="text-[10px] text-left my-2 md:group-hover:text-gray-200 text-gray-500">
                                                 {education.text.map((point, index) => (
                                                     <div key={index} className="flex items-center gap-2">
-                                                        <img src={education.icon} className="h-6 mt-2 font-black" alt="icon"/>
+                                                        <h3 className="text-xl mt-2 text-black">{education.icon}</h3>
+                                                        {/*<img src={education.icon} className="h-6 mt-2 font-black" alt="icon"/>*/}
                                                         <p className="block mb-1 whitespace-pre-line">{point}</p>
                                                     </div>
                                                 ))}

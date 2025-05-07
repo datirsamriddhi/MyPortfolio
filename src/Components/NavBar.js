@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { mylogo1 } from './../assets';
+import {mylogo1, resume} from './../assets';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -26,10 +26,13 @@ const NavBar = () => {
             <a href="#portfolio" onClick={handleMenuItemClick}>Portfolio</a>
           </li>
           <li className="menuItem hover:scale-110">
+            <a href="#hobbies" onClick={handleMenuItemClick}>Hobbies</a>
+          </li>
+          <li className="menuItem hover:scale-110">
             <a href="#contact" onClick={handleMenuItemClick}>Contact Me</a>
           </li>
           <li className="menuItem hover:scale-110">
-            <a href={'#'} target="_blank" rel="noreferrer">Resume</a>
+            <a href={resume} target="_blank" rel="noreferrer">Resume</a>
           </li>
         </ul>
 
@@ -56,10 +59,13 @@ const NavBar = () => {
                 <a href="#portfolio">Portfolio</a>
               </li>
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
+                <a href="#hobbies">Hobbies</a>
+              </li>
+              <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
                 <a href="#contact">Contact Me</a>
               </li>
               <li className="menuItem p-3 hover:scale-110" onClick={handleMenuItemClick}>
-                <a href={'#'} target={'_blank'} rel="noreferrer">Resume</a>
+                <a href={resume} target={'_blank'} rel="noreferrer">Resume</a>
               </li>
             </ul>
           )}

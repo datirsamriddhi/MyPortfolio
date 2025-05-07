@@ -6,6 +6,7 @@ import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
 import Skills from './Components/Skills';
 import { FiArrowUp } from 'react-icons/fi';
+import Hobbies from "./Components/Hobbies";
 
 function App() {
     const [showScrollButton, setShowScrollButton] = useState(false);
@@ -37,6 +38,9 @@ function App() {
             </div>
             <div id="portfolio">
                 <Portfolio />
+            </div>
+            <div id="hobbies">
+                <Hobbies />
             </div>
             <div id="contact">
                 <ContactUs />
