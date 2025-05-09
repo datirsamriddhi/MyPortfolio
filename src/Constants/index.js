@@ -265,7 +265,7 @@ export const Internship = [
         // imageUrl: oraclefa,
         companydesc: 'Machine Learning Training',
         company: 'Internshala Trainings',
-        duration: '8th May 2023',
+        duration: '8th August 2023',
         link: 'https://drive.google.com/file/d/1UDOd7hMAA2AkAQqIMJiJ1zes9rnogWlW/view'
     },
     {
